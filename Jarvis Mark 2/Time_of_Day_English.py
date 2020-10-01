@@ -5,7 +5,7 @@ time = str(datetime.now().time())
 hour = int(time[0:2])
 minute = int(time[3:5])
 second = int(time[6:8])
-current_time = "%s:%s:%s" % (hour, minute, second)
+current_time = "%h:%h:%m:%m:%s:%s" % (hour, minute, second)
 
 username = input("My name is Jarvis. What is your name? ")
 
